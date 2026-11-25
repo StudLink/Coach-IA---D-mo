@@ -1,0 +1,6 @@
+{
+  "name": "studlink-coach-banc",
+  "private": true,
+  "description": "Banc d'essai du coach StudLink (hors navigateur)",
+  "dependencies": { "acorn": "^8.12.0", "acorn-walk": "^8.3.0", "jsdom": "^24.1.0", "magic-string": "^0.30.0" }
+}
