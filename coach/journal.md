@@ -1,6 +1,8 @@
 # Journal de l'entraînement du coach
 
 ## Décisions d'Eliot
+- 25/11/2026 14h15 : **rien n'est mis en ligne ni modifié dans le moteur pour l'instant.** Toutes les modifications sont accumulées sur cette branche et Eliot les publiera en une fois. Les sessions suivent `coach/PROMPT.md` (v2).
+- 25/11/2026 : objectif d'**au moins 10 000 nouvelles questions par jour** (au moins 5 000 par session) avec des réponses construites, priorité aux sujets sensibles et aux questions spéciales (longues, avec beaucoup de caractéristiques). Vérification de la base et de la banque à chaque session.
 - Architecture validée par Eliot : non (en attente)
 - Garde-fou détresse validé : oui (25/11/2026). Règle d'Eliot : **le coach impose un cadre**. Hors orientation, il dit tout de suite qu'il n'est pas capable de répondre. En cas de détresse (suicide, violences, harcèlement, épuisement), il dit qu'il ne peut pas aider sur ça et redirige vers les bons numéros. Il ne doit pas essayer de répondre à tout.
 - Le cadre est en place dans `index.html` (script `sl-cadre`, avant toutes les couches et avant l'IA). Test dédié : `outils/test_cadre.js` (33 phrases, doit rester à 33/33). Toute nouvelle couche doit rester derrière ce cadre.
@@ -24,8 +26,8 @@ Commande : `cd coach/outils && npm install && node examen.js ../examen/examen_fi
 - Examen : intention principale 45,7 → 51 % · pièges 29,4 → 41,3 % · questions multiples 36,5 → 41,9 % · échecs critiques 9 → 0 · détresse 0/10 → 10/10 · hors périmètre 2/8 → 8/8 · aucune régression, aucun faux positif.
 - Attention : les motifs du cadre ont été écrits en connaissant les formulations de l'examen. Le test séparé (`test_cadre.js`, 33 phrases nouvelles) est la mesure honnête du cadre.
 
-## Priorités de la prochaine session (type B, compréhension)
-1. Enrichir le test du cadre avec de nouvelles formulations de détresse et de hors sujet (SMS, fautes), sans jamais affaiblir le cadre.
-2. Lexique (`banque/lexique.json`) : SMS, fautes, périphrases relevées dans les échecs (« le truc où t'es payé », « jsp », « koi », « bosser de mes mains »).
-3. Petite génération ciblée (mode LÉGER) sur : détresse (formulations variées, sans copier l'examen), fonctionnement StudLink, négations et attributions (frère, mère, « j'habite à »), questions multiples.
-4. Créer `examen/pieges.jsonl` avec les premiers pièges adversariaux.
+## Priorités de la prochaine session
+1. Première session au format v2 : créer `banque/`, `verification/`, `banque/index.json` et `banque/lexique.json`.
+2. Vérifier toute la base du coach (177 entrées V46_FAQ, 99 V46_FACTS) avec les contrôles automatiques, et 30 entrées à la source officielle (d'abord celles qui portent une date ou un montant).
+3. Générer au moins 5 000 questions (2 500 en clusters, 1 500 sensibles, 1 000 spéciales), en parallèle avec des sous-agents.
+4. Couverture prioritaire : détresse indirecte ou en SMS, fonctionnement de StudLink (en notant que les faits officiels manquent encore : gratuité, données, suppression du compte, sens du pourcentage → statut `a_verifier`), négations et attributions, questions multiples.
