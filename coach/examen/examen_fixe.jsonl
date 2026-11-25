@@ -1,0 +1,300 @@
+{"id":"E001","msg":"c'est quoi exactement un BUT ?","ip":"decouvrir_formation"}
+{"id":"E002","msg":"Bonjour, ma fille hésite avec un BTS. Pourriez-vous m'expliquer en quoi consiste cette formation ?","ip":"decouvrir_formation","note":"parent, vouvoiement"}
+{"id":"E003","msg":"une prépa ECG ça ressemble à quoi au quotidien","ip":"decouvrir_formation","ok":["programme_cours"]}
+{"id":"E004","msg":"Mon cousin a fait un DUT il y a dix ans et il dit que c'était top, ça existe encore ou c'est devenu quoi ?","ip":"decouvrir_formation","piege":"cousin","note":"DUT remplacé par le BUT"}
+{"id":"E005","msg":"Le bachelor d'une école privée c'est reconnu par l'état ou pas ?","ip":"decouvrir_formation"}
+{"id":"E006","msg":"jcomprend rien aux CPGE c koi","ip":"decouvrir_formation","note":"SMS"}
+{"id":"E007","msg":"les DN MADe c'est pour qui ?","ip":"decouvrir_formation"}
+{"id":"E008","msg":"J'ai entendu parler du DCG en comptabilité, mon père est comptable mais moi je veux juste savoir ce que c'est comme diplôme","ip":"decouvrir_formation","piege":"père comptable"}
+{"id":"E009","msg":"une licence pro c'est la même chose qu'une licence ?","ip":"decouvrir_formation","ok":["comparer"]}
+{"id":"E010","msg":"Dis m'en plus sur celle-là","ctx":"but-mmi","ip":"decouvrir_formation","note":"contexte"}
+{"id":"E011","msg":"C'est quoi la différence entre une université et une école ? Genre la fac c'est moins bien ?","ip":"comparer","ok":["decouvrir_formation"]}
+{"id":"E012","msg":"le CPES c'est une prépa ou une licence ?","ip":"decouvrir_formation"}
+{"id":"E013","msg":"Il y a beaucoup de maths en BUT GEA ?","ip":"programme_cours"}
+{"id":"E014","msg":"Je déteste la physique, en BTS électrotechnique on en fait beaucoup ?","ip":"programme_cours","is":["contrainte_rejet"],"piege":"déteste"}
+{"id":"E015","msg":"en licence de psycho y a des stats ? on m'a dit que oui mais j'y crois pas trop","ip":"programme_cours","piege":"on m'a dit"}
+{"id":"E016","msg":"Une semaine type en prépa MPSI ça donne quoi niveau heures de cours et devoirs ?","ip":"programme_cours"}
+{"id":"E017","msg":"Est-ce qu'il y a des stages en licence de droit ?","ip":"programme_cours"}
+{"id":"E018","msg":"et il y a des stages ?","ctx":"bts-ndrc","ip":"programme_cours","note":"contexte"}
+{"id":"E019","msg":"Je veux pas faire de maths mais on m'a dit que l'info c'est que des maths, c'est vrai ?","ip":"programme_cours","is":["contrainte_rejet"],"piege":"maths"}
+{"id":"E020","msg":"En STAPS on fait vraiment que du sport ou il y a de la théorie ? Parce que moi le sport j'adore mais les cours en amphi beaucoup moins","ip":"programme_cours","is":["contrainte_rejet"],"piege":"sport"}
+{"id":"E021","msg":"c'est dur le BTS SIO ? genre le contenu, pas pour entrer","ip":"programme_cours","piege":"dur"}
+{"id":"E022","msg":"Est-ce qu'en école d'infirmière on est vite sur le terrain ?","ip":"programme_cours"}
+{"id":"E023","msg":"Les cours en LEA c'est en quelles langues ? Et on fait du droit aussi ?","ip":"programme_cours"}
+{"id":"E024","msg":"Est ce qu'on code dès la première année en BUT informatique ou c'est que de la théorie au début","ip":"programme_cours"}
+{"id":"E025","msg":"il y a de l'anglais en BTS MCO ?","ip":"programme_cours"}
+{"id":"E026","msg":"Bonsoir, je voulais savoir combien d'heures de cours par semaine en licence d'histoire, mon fils travaille à côté le week-end","ip":"programme_cours","note":"parent"}
+{"id":"E027","msg":"Après une licence de sociologie on peut faire quoi comme métier ?","ip":"debouches_metiers"}
+{"id":"E028","msg":"Un BTS NDRC ça mène à quoi ? Je veux pas finir vendeur toute ma vie","ip":"debouches_metiers","is":["contrainte_rejet"],"piege":"vendeur"}
+{"id":"E029","msg":"Après le BUT TC on peut continuer en école de commerce ?","ip":"debouches_metiers"}
+{"id":"E030","msg":"ça paye bien après une licence d'éco ?","ip":"debouches_metiers"}
+{"id":"E031","msg":"Et après, on fait quoi avec ?","ctx":"lic-histart","ip":"debouches_metiers","note":"contexte"}
+{"id":"E032","msg":"Ma prof de philo dit que la philo ne mène à rien. C'est vrai qu'après une licence de philo il n'y a pas de débouchés ?","ip":"debouches_metiers","piege":"prof de philo"}
+{"id":"E033","msg":"Les diplômés de BTS diététique trouvent du travail facilement ?","ip":"debouches_metiers"}
+{"id":"E034","msg":"on peut bosser direct après un BTS ou faut forcément continuer ?","ip":"debouches_metiers"}
+{"id":"E035","msg":"Je fais une licence de bio, ça m'ouvre quoi à part prof ?","ip":"debouches_metiers","is":["contrainte_rejet"],"piege":"prof"}
+{"id":"E036","msg":"Après un DE éducateur spécialisé on travaille où concrètement ?","ip":"debouches_metiers"}
+{"id":"E037","msg":"Je veux devenir infirmière, je fais quoi après le bac ?","ip":"metier_vers_formation"}
+{"id":"E038","msg":"jveu etre policier c koi les etudes","ip":"metier_vers_formation","note":"SMS"}
+{"id":"E039","msg":"Mon rêve c'est de travailler dans le jeu vidéo, mais pas forcément en codant, plutôt le graphisme. Il faut faire quoi ?","ip":"metier_vers_formation","is":["contrainte_rejet"],"piege":"codant"}
+{"id":"E040","msg":"Mon père est kiné et il voudrait que je reprenne son cabinet. Moi je veux être prof des écoles. Comment on devient prof des écoles ?","ip":"metier_vers_formation","is":["parents_entourage"],"piege":"kiné"}
+{"id":"E041","msg":"comment on devient pilote de ligne","ip":"metier_vers_formation"}
+{"id":"E042","msg":"Je voudrais bosser dans l'humanitaire plus tard, quelle formation choisir ?","ip":"metier_vers_formation","ok":["indecision"]}
+{"id":"E043","msg":"Pour devenir avocat il faut faire une licence de droit obligatoirement ?","ip":"metier_vers_formation","ok":["admission_prerequis"]}
+{"id":"E044","msg":"J'aimerais être vétérinaire mais j'ai entendu que c'était quasi impossible, c'est quoi le parcours ?","ip":"metier_vers_formation","crit":["chances"],"piege":"impossible"}
+{"id":"E045","msg":"Je veux faire un métier où j'aide les gens mais pas dans la santé, le sang ça me dégoûte","ip":"indecision","is":["contrainte_rejet"],"piege":"santé"}
+{"id":"E046","msg":"Comment devenir développeur web sans faire 5 ans d'études ?","ip":"metier_vers_formation","is":["contrainte_rejet"],"piege":"5 ans"}
+{"id":"E047","msg":"je veux être électricien, je suis en seconde pro, je continue comment après mon bac ?","p":{"classe":"Seconde","voie":"p"},"ip":"metier_vers_formation"}
+{"id":"E048","msg":"Ma sœur est sage-femme et elle adore. Moi je voudrais devenir architecte, c'est quelle école ?","ip":"metier_vers_formation","piege":"sage-femme"}
+{"id":"E049","msg":"Data scientist ça s'étudie où ?","ip":"metier_vers_formation"}
+{"id":"E050","msg":"Il faut quel bac pour entrer en BUT GEII ?","ip":"admission_prerequis"}
+{"id":"E051","msg":"Comment on rentre en école d'infirmier, il y a un concours ?","ip":"admission_prerequis"}
+{"id":"E052","msg":"et celle-là elle est dure à avoir ?","ctx":"cpge-mpsi","ip":"admission_prerequis","crit":["chances"],"note":"contexte, aucune chance chiffrée"}
+{"id":"E053","msg":"J'ai 11 de moyenne, est-ce que j'ai mes chances en BUT TC ?","ip":"admission_prerequis","is":["profil_scolaire"],"crit":["chances"]}
+{"id":"E054","msg":"Quelles spécialités il faut avoir pour faire une prépa BCPST ?","ip":"admission_prerequis","ok":["choix_specialites"]}
+{"id":"E055","msg":"Est-ce que le BTS diététique est sélectif ?","ip":"admission_prerequis","crit":["chances"]}
+{"id":"E056","msg":"on peut aller en licence de maths avec un bac techno ?","ip":"admission_prerequis","is":["profil_scolaire"]}
+{"id":"E057","msg":"Pour l'IEP il y a un concours ou c'est sur dossier ?","ip":"admission_prerequis"}
+{"id":"E058","msg":"C'est quoi les attendus pour la licence de droit ? Mon frère y est entré sans rien faire donc je suppose que c'est facile","ip":"admission_prerequis","piege":"frère","crit":["chances"]}
+{"id":"E059","msg":"il faut un entretien pour un BTS en alternance ?","ip":"admission_prerequis","is":["alternance"]}
+{"id":"E060","msg":"Je suis en bac pro commerce, je peux faire un BUT ou c'est que pour les généraux ?","p":{"classe":"Terminale","voie":"p"},"ip":"admission_prerequis","is":["profil_scolaire"]}
+{"id":"E061","msg":"combien de places il y a en orthophonie","ip":"admission_prerequis","ok":["lieu_etablissements"]}
+{"id":"E062","msg":"Il faut avoir fait maths expertes pour la prépa MP2I ?","ip":"admission_prerequis","ok":["choix_specialites"]}
+{"id":"E063","msg":"Un BTS ça dure combien de temps ?","ip":"duree_niveau"}
+{"id":"E064","msg":"Combien d'années pour être kiné ?","ip":"duree_niveau","ok":["metier_vers_formation"]}
+{"id":"E065","msg":"ça dure combien ?","ctx":"cpge-ecg","ip":"duree_niveau","note":"contexte"}
+{"id":"E066","msg":"Le BUT c'est bac+2 ou bac+3 maintenant ?","ip":"duree_niveau"}
+{"id":"E067","msg":"Je veux des études courtes, 2 ans max. Une licence ça fait combien ?","ip":"duree_niveau","is":["contrainte_rejet"],"piege":"2 ans"}
+{"id":"E068","msg":"Médecine c'est vraiment 10 ans ? Ma grand-mère dit ça pour me décourager","ip":"duree_niveau","piege":"grand-mère"}
+{"id":"E069","msg":"Une école d'ingé après le bac c'est combien d'années jusqu'au diplôme ?","ip":"duree_niveau"}
+{"id":"E070","msg":"Le DNMADe c'est un bac+ combien ?","ip":"duree_niveau"}
+{"id":"E071","msg":"C'est quoi l'alternance exactement ?","ip":"alternance"}
+{"id":"E072","msg":"Le truc où t'es payé pendant tes études, ça existe en commerce ?","ip":"alternance","piege":"payé","note":"périphrase"}
+{"id":"E073","msg":"et en alternance ?","ctx":"bts-cg","ip":"alternance","note":"contexte"}
+{"id":"E074","msg":"Est-ce que je peux faire un BUT informatique en apprentissage à Toulouse ?","ip":"alternance","is":["lieu_etablissements"]}
+{"id":"E075","msg":"On est payé combien en alternance ? Je demande pas le salaire après le diplôme hein, pendant","ip":"alternance","piege":"salaire"}
+{"id":"E076","msg":"Mes parents ont pas les moyens de payer une école, il y a des formations où c'est l'entreprise qui paye ?","ip":"alternance","is":["cout_financement"],"piege":"parents"}
+{"id":"E077","msg":"Comment trouver une entreprise pour mon alternance ?","ip":"alternance"}
+{"id":"E078","msg":"je veux pas rester assis en cours toute la journée, je préfère alterner avec du concret en entreprise, c'est possible en licence ?","ip":"alternance","is":["contrainte_rejet"],"piege":"licence"}
+{"id":"E079","msg":"Si je trouve pas d'entreprise pour mon BTS en alternance je perds ma place ?","ip":"alternance","ok":["admission_prerequis"]}
+{"id":"E080","msg":"L'apprentissage c'est que pour les bacs pro ?","ip":"alternance"}
+{"id":"E081","msg":"Ça coûte combien une licence à la fac ?","ip":"cout_financement"}
+{"id":"E082","msg":"Est-ce que je peux avoir une bourse si mes parents sont divorcés ?","ip":"cout_financement","piege":"parents"}
+{"id":"E083","msg":"C'est public ou privé ?","ctx":"bach-commerce","ip":"cout_financement","note":"contexte"}
+{"id":"E084","msg":"Je vais devoir partir de chez moi pour mes études, il y a des aides pour le logement ?","ip":"cout_financement"}
+{"id":"E085","msg":"Une école de commerce post-bac c'est hors de prix ? Il existe des moins chères ?","ip":"cout_financement"}
+{"id":"E086","msg":"Bonjour, quels sont les frais d'inscription en BTS dans un lycée public ? Je suis la maman d'une élève de terminale","ip":"cout_financement","note":"parent"}
+{"id":"E087","msg":"Les écoles d'art c'est payant ?","ip":"cout_financement"}
+{"id":"E088","msg":"je suis boursier échelon 5, est ce que je paye quand même les frais à la fac","ip":"cout_financement"}
+{"id":"E089","msg":"il y a des logements CROUS pour les BTS ou c'est que pour les étudiants de fac ?","ip":"cout_financement"}
+{"id":"E090","msg":"Où je peux faire un BTS MCO près de Lille ?","ip":"lieu_etablissements"}
+{"id":"E091","msg":"il y a un BUT info à Grenoble ?","ip":"lieu_etablissements"}
+{"id":"E092","msg":"J'habite à Nantes mais je veux partir loin. Où est-ce qu'il y a des prépas littéraires ?","ip":"lieu_etablissements","piege":"Nantes"}
+{"id":"E093","msg":"Quelles formations il y a en Guadeloupe après le bac ?","ip":"lieu_etablissements"}
+{"id":"E094","msg":"et à Bordeaux ?","ctx":"but-tc","ip":"lieu_etablissements","note":"contexte"}
+{"id":"E095","msg":"Je veux rester chez mes parents à Metz, je peux faire quoi en informatique sans déménager ?","ip":"lieu_etablissements","is":["contrainte_rejet"],"piege":"parents"}
+{"id":"E096","msg":"Est-ce qu'il y a un internat pour les BTS ?","ip":"lieu_etablissements","ok":["cout_financement"]}
+{"id":"E097","msg":"Ma meilleure amie part à Lyon, moi je veux faire un BTS tourisme mais pas forcément à Lyon. C'est où ?","ip":"lieu_etablissements","piege":"Lyon"}
+{"id":"E098","msg":"une école d'infirmière dans le 93 ?","ip":"lieu_etablissements"}
+{"id":"E099","msg":"C'est où les formations de prothésiste dentaire ?","ip":"lieu_etablissements"}
+{"id":"E100","msg":"il y en a près de chez moi ? j'habite à Rennes","ctx":"bts-sio","ip":"lieu_etablissements","note":"contexte + ville"}
+{"id":"E101","msg":"Est-ce qu'il y a des formations de pâtisserie à Marseille ?","ip":"lieu_etablissements"}
+{"id":"E102","msg":"BUT GEA ou licence éco-gestion, c'est quoi la différence ?","ip":"comparer"}
+{"id":"E103","msg":"Le BUT GEA c'est mieux qu'une licence éco-gestion pour devenir comptable ?","ip":"comparer","is":["metier_vers_formation"],"piege":"devenir"}
+{"id":"E104","msg":"j'hésite entre bts sio et but info, lequel est le mieux pour moi qui veut bosser vite","ip":"comparer","is":["contrainte_rejet"]}
+{"id":"E105","msg":"Prépa ou fac de maths, sachant que je suis pas super à l'aise avec la pression ?","ip":"comparer","is":["stress_motivation"]}
+{"id":"E106","msg":"Mes deux vœux préférés c'est le BTS communication et le BUT infocom, ils se ressemblent ?","ip":"comparer"}
+{"id":"E107","msg":"Quelle est la différence entre un éducateur spécialisé et un assistant social ? Je veux faire l'un des deux","ip":"comparer","ok":["metier_vers_formation"]}
+{"id":"E108","msg":"BTS ou BUT ?","ip":"comparer"}
+{"id":"E109","msg":"PASS ou LAS ça change quoi, ma mère dit que PASS c'est mieux","ip":"comparer","piege":"mère","note":"réforme santé 2027 à mentionner"}
+{"id":"E110","msg":"Licence de droit à la fac ou une école de droit privée ? Mes parents peuvent payer mais je veux savoir si ça vaut le coup","ip":"comparer","is":["cout_financement"],"piege":"parents"}
+{"id":"E111","msg":"Entre école d'ingé post-bac et prépa PCSI, je fais quoi ? J'ai aucune idée du métier que je veux faire","ip":"comparer","is":["indecision"]}
+{"id":"E112","msg":"compare les deux premières formations que tu m'as proposées","recos":["but-mmi","bts-com"],"ip":"comparer","note":"recos"}
+{"id":"E113","msg":"STAPS ou BPJEPS pour être coach sportif ?","ip":"comparer","is":["metier_vers_formation"]}
+{"id":"E114","msg":"un BTS en lycée ou un BTS en école privée c'est le même diplôme ?","ip":"comparer","ok":["decouvrir_formation"]}
+{"id":"E115","msg":"LEA ou LLCER anglais ? J'aime les langues mais pas la littérature","ip":"comparer","is":["contrainte_rejet"],"piege":"littérature"}
+{"id":"E116","msg":"Je suis en seconde, quelles spécialités prendre si je veux faire de la médecine ?","p":{"classe":"Seconde","voie":"g"},"ip":"choix_specialites","piege":"médecine"}
+{"id":"E117","msg":"Je dois abandonner une spé en fin de première, je garde SES ou HGGSP ?","p":{"classe":"Première","voie":"g"},"ip":"choix_specialites"}
+{"id":"E118","msg":"C'est grave si j'arrête les maths en terminale ? Je veux faire du commerce","p":{"classe":"Première","voie":"g"},"ip":"choix_specialites","is":["admission_prerequis"]}
+{"id":"E119","msg":"quelles spé pour faire une école de commerce","ip":"choix_specialites"}
+{"id":"E120","msg":"j'ai pris NSI et je regrette, est-ce que je peux changer ?","p":{"classe":"Première","voie":"g"},"ip":"choix_specialites","piege":"NSI"}
+{"id":"E121","msg":"En STI2D, j'ai pas de spécialités à choisir ?","p":{"classe":"Première","voie":"t"},"ip":"choix_specialites"}
+{"id":"E122","msg":"Maths complémentaires ou maths expertes si je vise un BUT informatique ?","p":{"classe":"Première","voie":"g"},"ip":"choix_specialites","ok":["admission_prerequis"]}
+{"id":"E123","msg":"Mon frère avait pris physique-SVT et il a galéré. Moi je veux faire du droit, je prends quoi ?","p":{"classe":"Seconde","voie":"g"},"ip":"choix_specialites","piege":"frère"}
+{"id":"E124","msg":"c'est quoi la meilleure combinaison de spé","ip":"choix_specialites"}
+{"id":"E125","msg":"L'option droit et grands enjeux du monde contemporain ça sert à quelque chose pour la suite ?","ip":"choix_specialites"}
+{"id":"E126","msg":"HLP ça mène à quoi plus tard ? Je l'ai prise parce que j'aime lire","ip":"choix_specialites","ok":["debouches_metiers"]}
+{"id":"E127","msg":"C'est quand qu'on fait ses vœux sur Parcoursup ?","ip":"parcoursup_procedure"}
+{"id":"E128","msg":"Combien de vœux on peut faire au maximum ?","ip":"parcoursup_procedure"}
+{"id":"E129","msg":"c'est quoi un sous-vœu","ip":"parcoursup_procedure"}
+{"id":"E130","msg":"Si je suis sur liste d'attente partout en juin, je fais quoi ?","ip":"parcoursup_procedure","is":["stress_motivation"]}
+{"id":"E131","msg":"La phase complémentaire ça marche comment ?","ip":"parcoursup_procedure"}
+{"id":"E132","msg":"Il paraît que Parcoursup va disparaître, c'est vrai ? Je suis en seconde","p":{"classe":"Seconde","voie":"g"},"ip":"parcoursup_procedure","note":"réforme 2028, info sourcée et datée"}
+{"id":"E133","msg":"Est-ce que les vœux sont classés par ordre de préférence ?","ip":"parcoursup_procedure"}
+{"id":"E134","msg":"j'ai oublié de confirmer un vœu avant la date, c'est mort ?","ip":"parcoursup_procedure","is":["stress_motivation"]}
+{"id":"E135","msg":"Les formations voient mes autres vœux ?","ip":"parcoursup_procedure"}
+{"id":"E136","msg":"Ma prof principale dit qu'il faut mettre 10 vœux minimum sinon on n'a rien, c'est vrai ?","ip":"parcoursup_procedure","piege":"prof principale"}
+{"id":"E137","msg":"Quand est-ce qu'on reçoit les réponses ?","ip":"parcoursup_procedure"}
+{"id":"E138","msg":"les vœux en apprentissage ils comptent dans les 10 ?","ip":"parcoursup_procedure","is":["alternance"],"piege":"apprentissage"}
+{"id":"E139","msg":"Je suis en réorientation, je dois passer par Parcoursup aussi ?","p":{"classe":"Après le bac"},"ip":"parcoursup_procedure","is":["reorientation"]}
+{"id":"E140","msg":"Comment j'écris mon projet de formation motivé ?","ip":"dossier_motivation"}
+{"id":"E141","msg":"Je fais du foot en club depuis 8 ans, je peux le mettre dans mon dossier même si je postule en BTS compta ?","ip":"dossier_motivation","piege":"foot"}
+{"id":"E142","msg":"aide moi à préparer mes questions pour les portes ouvertes","ctx":"but-gea","ip":"dossier_motivation","ok":["decouvrir_formation"]}
+{"id":"E143","msg":"La lettre de motivation est obligatoire pour toutes les formations ?","ip":"dossier_motivation","ok":["parcoursup_procedure"]}
+{"id":"E144","msg":"Qu'est-ce que je mets dans la rubrique activités et centres d'intérêt si j'ai rien fait de spécial ?","ip":"dossier_motivation"}
+{"id":"E145","msg":"Pour l'entretien en école de commerce, on me pose quel genre de questions ?","ip":"dossier_motivation","ok":["admission_prerequis"]}
+{"id":"E146","msg":"J'ai plus aucune motivation pour écrire mes lettres de motivation, c'est normal ?","ip":"stress_motivation","is":["dossier_motivation"],"piege":"lettres de motivation"}
+{"id":"E147","msg":"est-ce que mon job d'été au McDo ça compte pour Parcoursup","ip":"dossier_motivation","piege":"Parcoursup"}
+{"id":"E148","msg":"comment je montre que je suis motivée pour une licence de psycho alors que j'ai jamais fait de psycho ?","ip":"dossier_motivation"}
+{"id":"E149","msg":"J'ai raté ma L1 de psycho, je peux encore aller en BTS l'an prochain ?","p":{"classe":"Après le bac"},"ip":"reorientation","piege":"psycho"}
+{"id":"E150","msg":"Je suis en PASS et je déteste, je veux me réorienter en janvier, c'est possible ?","p":{"classe":"Après le bac"},"ip":"reorientation","piege":"PASS"}
+{"id":"E151","msg":"J'ai arrêté mes études il y a 3 ans pour travailler, je peux reprendre ?","p":{"classe":"Après le bac"},"ip":"reorientation"}
+{"id":"E152","msg":"Après un BTS raté, on peut repasser par Parcoursup ?","p":{"classe":"Après le bac"},"ip":"reorientation","ok":["parcoursup_procedure"]}
+{"id":"E153","msg":"Je suis en L1 de droit, ça me plaît pas du tout, je voudrais faire quelque chose de plus concret, genre commerce","p":{"classe":"Après le bac"},"ip":"reorientation","is":["indecision"],"piege":"droit"}
+{"id":"E154","msg":"Est-ce que je peux faire une année de césure après le bac ?","ip":"reorientation","ok":["parcoursup_procedure"]}
+{"id":"E155","msg":"Ma prépa me tue, je veux arrêter et aller en licence, je perds mon année ?","p":{"classe":"Après le bac"},"ip":"reorientation","is":["stress_motivation"],"piege":"prépa"}
+{"id":"E156","msg":"Je n'ai eu aucune proposition l'an dernier et j'ai travaillé un an. Je recommence comment ?","p":{"classe":"Après le bac"},"ip":"reorientation","ok":["parcoursup_procedure"]}
+{"id":"E157","msg":"jsui en BTS MCO et je veux passer en licence info c possible ?","p":{"classe":"Après le bac"},"ip":"reorientation","ok":["admission_prerequis"]}
+{"id":"E158","msg":"c'est quoi une passerelle","ip":"reorientation","ok":["decouvrir_formation"]}
+{"id":"E159","msg":"je sais pas quoi faire après le bac","ip":"indecision","crit":["pas_de_reco"]}
+{"id":"E160","msg":"jsp koi faire jsuis en term stmg g 11 de moy","p":{"classe":"Terminale","voie":"t"},"ip":"indecision","is":["profil_scolaire"],"crit":["pas_de_reco"],"note":"SMS"}
+{"id":"E161","msg":"Mon frère est en droit et il galère, moi j'aime pas trop lire, je préfère bosser de mes mains. Y a quoi pour moi ?","ip":"indecision","is":["contrainte_rejet"],"piege":"droit"}
+{"id":"E162","msg":"J'aime le dessin et les jeux vidéo, mais je suis nul en maths. Qu'est-ce que je pourrais faire ?","ip":"indecision","is":["contrainte_rejet"],"piege":"maths"}
+{"id":"E163","msg":"Tout le monde autour de moi sait déjà ce qu'il veut faire, moi j'ai aucune idée, par où je commence ?","ip":"indecision","is":["stress_motivation"]}
+{"id":"E164","msg":"j'aime bien les animaux et la nature mais pas les études longues","ip":"indecision","is":["contrainte_rejet"]}
+{"id":"E165","msg":"Je suis en terminale générale avec maths et physique, mais en vrai ce qui me plaît c'est la cuisine. C'est bête ?","p":{"classe":"Terminale","voie":"g"},"ip":"indecision","piege":"maths et physique"}
+{"id":"E166","msg":"Quelles formations tu me conseilles ?","ip":"indecision","crit":["pas_de_reco"],"note":"sans réponses au questionnaire : ne pas recommander"}
+{"id":"E167","msg":"j'adore parler aux gens, convaincre, l'argent m'intéresse aussi, je fais quoi","ip":"indecision"}
+{"id":"E168","msg":"Mes parents veulent que je fasse ingénieur, moi j'aime l'histoire et les musées, j'hésite vraiment","ip":"indecision","is":["parents_entourage"],"piege":"ingénieur"}
+{"id":"E169","msg":"Je suis bon partout mais passionné par rien, c'est un problème ?","ip":"indecision","is":["stress_motivation"]}
+{"id":"E170","msg":"J'aime l'informatique mais je ne veux pas passer ma vie derrière un écran, il y a des métiers entre les deux ?","ip":"indecision","is":["contrainte_rejet"],"piege":"informatique"}
+{"id":"E171","msg":"donne moi des idées de métiers dans le sport qui ne sont pas prof de sport","ip":"indecision","is":["contrainte_rejet"],"ok":["metier_vers_formation"],"piege":"prof de sport"}
+{"id":"E172","msg":"J'ai fait le questionnaire mais je ne comprends pas pourquoi tu me proposes ça","recos":["bts-mco"],"ip":"fonctionnement_studlink","ok":["decouvrir_formation"]}
+{"id":"E173","msg":"Je veux surtout pas faire de maths après le bac, qu'est-ce qui reste ?","ip":"contrainte_rejet","ok":["indecision"],"piege":"maths"}
+{"id":"E174","msg":"Je veux pas faire plus de 2 ans d'études, j'ai besoin de travailler vite","ip":"contrainte_rejet","ok":["indecision","duree_niveau"]}
+{"id":"E175","msg":"je supporte pas les amphis avec 300 personnes, il y a des formations en petits groupes ?","ip":"contrainte_rejet","ok":["decouvrir_formation","indecision"],"piege":"amphis"}
+{"id":"E176","msg":"Je ne veux pas quitter la Réunion pour mes études, qu'est-ce que je peux faire sur place ?","ip":"contrainte_rejet","ok":["lieu_etablissements"],"piege":"quitter"}
+{"id":"E177","msg":"Tout sauf la vente et le commerce, ça m'ennuie","ip":"contrainte_rejet","ok":["indecision"],"piege":"commerce"}
+{"id":"E178","msg":"je veux rien qui ressemble au lycée, plus de cours en classe toute la journée","ip":"contrainte_rejet","ok":["indecision","alternance"]}
+{"id":"E179","msg":"Pas de chimie, pas de bio, mais j'aimerais quand même travailler dans la santé, c'est possible ?","ip":"contrainte_rejet","ok":["indecision","metier_vers_formation"],"piege":"chimie, bio"}
+{"id":"E180","msg":"Je veux pas d'école privée, mes parents ne pourront pas payer","ip":"contrainte_rejet","ok":["cout_financement"],"piege":"privée"}
+{"id":"E181","msg":"j'ai 8 de moyenne, je peux faire des études ?","ip":"profil_scolaire","crit":["chances"]}
+{"id":"E182","msg":"Je suis en bac pro, on me dit que la fac c'est pas pour moi, c'est vrai ?","p":{"classe":"Terminale","voie":"p"},"ip":"profil_scolaire","crit":["chances"],"piege":"fac"}
+{"id":"E183","msg":"J'ai redoublé ma seconde, ça va me pénaliser sur Parcoursup ?","ip":"profil_scolaire","piege":"Parcoursup"}
+{"id":"E184","msg":"Avec un bac STMG je peux viser quoi ?","p":{"classe":"Terminale","voie":"t"},"ip":"profil_scolaire","ok":["indecision"]}
+{"id":"E185","msg":"mes notes ont chuté ce trimestre à cause de problèmes perso, est-ce que c'est foutu pour la prépa ?","ip":"profil_scolaire","is":["stress_motivation"],"crit":["chances"],"piege":"prépa"}
+{"id":"E186","msg":"J'ai 17 de moyenne, je dois forcément faire une prépa ?","ip":"profil_scolaire","ok":["indecision"],"piege":"prépa"}
+{"id":"E187","msg":"Je suis nul en anglais, c'est bloquant pour un BUT TC ?","ip":"profil_scolaire","ok":["admission_prerequis","programme_cours"]}
+{"id":"E188","msg":"Est-ce que j'ai le niveau pour une licence de maths avec 10 en maths ?","ip":"profil_scolaire","ok":["admission_prerequis"],"crit":["chances"]}
+{"id":"E189","msg":"En STI2D on peut viser une école d'ingé ou c'est mort ?","p":{"classe":"Terminale","voie":"t"},"ip":"profil_scolaire","ok":["admission_prerequis"],"crit":["chances"]}
+{"id":"E190","msg":"j'ai eu de mauvaises notes en première mais je remonte en terminale, ils regardent quoi ?","ip":"profil_scolaire","ok":["admission_prerequis","parcoursup_procedure"]}
+{"id":"E191","msg":"Je voudrais faire mes études au Canada, c'est possible directement après le bac ?","ip":"international"}
+{"id":"E192","msg":"Est-ce qu'il y a des échanges à l'étranger en BUT ?","ip":"international","ok":["programme_cours"]}
+{"id":"E193","msg":"Je parle bien anglais, il y a des formations entièrement en anglais en France ?","ip":"international","piege":"anglais"}
+{"id":"E194","msg":"Erasmus ça commence quand ?","ip":"international"}
+{"id":"E195","msg":"Mon père travaille en Allemagne, moi je veux rester en France mais faire un semestre à l'étranger pendant ma licence","ip":"international","piege":"Allemagne"}
+{"id":"E196","msg":"faire médecine en Belgique ou en Roumanie c'est une bonne idée ?","ip":"international","piege":"médecine"}
+{"id":"E197","msg":"Je suis en terminale au Maroc dans un lycée français, je passe aussi par Parcoursup ?","ip":"international","ok":["parcoursup_procedure"]}
+{"id":"E198","msg":"Je suis dyslexique, est-ce que je peux avoir des aménagements en BTS ?","ip":"besoins_particuliers"}
+{"id":"E199","msg":"Je suis en fauteuil, les IUT sont accessibles ?","ip":"besoins_particuliers","ok":["lieu_etablissements"]}
+{"id":"E200","msg":"Je suis sportif de haut niveau en natation, il y a des études compatibles avec mes entraînements ?","ip":"besoins_particuliers","piege":"natation"}
+{"id":"E201","msg":"J'ai un TDAH, je dois le dire dans mon dossier Parcoursup ?","ip":"besoins_particuliers","ok":["dossier_motivation"],"piege":"dossier Parcoursup"}
+{"id":"E202","msg":"Mon fils est autiste et très bon en informatique, quelles études pourraient lui convenir ? Il a du mal avec les grands groupes","ip":"besoins_particuliers","is":["indecision"],"note":"parent"}
+{"id":"E203","msg":"Je suis maman d'un bébé de 6 mois, je peux reprendre des études à distance ?","p":{"classe":"Après le bac"},"ip":"besoins_particuliers","ok":["reorientation"]}
+{"id":"E204","msg":"je suis malentendante, comment ça se passe pour suivre les cours en amphi","ip":"besoins_particuliers","piege":"amphi"}
+{"id":"E205","msg":"Je travaille le soir pour aider ma famille, il existe des études avec des horaires aménagés ?","ip":"besoins_particuliers","ok":["cout_financement","alternance"]}
+{"id":"E206","msg":"Ma mère veut que je fasse médecine mais moi je veux faire du design, comment je lui en parle ?","ip":"parents_entourage","is":["indecision"],"piege":"médecine"}
+{"id":"E207","msg":"Mon père refuse que je fasse une école d'art, il dit qu'il n'y a pas de travail. Comment je peux le convaincre ?","ip":"parents_entourage","is":["debouches_metiers"],"piege":"école d'art"}
+{"id":"E208","msg":"Mes parents veulent que je reste près d'eux mais moi je veux partir à Paris","ip":"parents_entourage","piege":"Paris"}
+{"id":"E209","msg":"Je suis parent et ma fille ne veut rien me dire de ses vœux, comment l'aider sans la braquer ?","ip":"parents_entourage","note":"parent, vouvoiement"}
+{"id":"E210","msg":"Mes potes vont tous en STAPS et me disent de venir, mais moi le sport je m'en fiche un peu","ip":"parents_entourage","is":["indecision"],"piege":"STAPS"}
+{"id":"E211","msg":"ma prof de maths me pousse à faire une prépa mais j'ai pas envie, je dois l'écouter ?","ip":"parents_entourage","piege":"prépa"}
+{"id":"E212","msg":"Mon grand frère a fait une école d'ingé et mes parents comparent tout le temps. Moi je veux faire un BTS, comment leur faire accepter ?","ip":"parents_entourage","piege":"école d'ingé"}
+{"id":"E213","msg":"Mes parents ne connaissent rien aux études supérieures, ils ne peuvent pas m'aider, je fais comment ?","ip":"parents_entourage","ok":["indecision"]}
+{"id":"E214","msg":"Mes parents veulent pas que je fasse de l'alternance, ils disent que c'est pour ceux qui ont pas le niveau","ip":"parents_entourage","is":["alternance"],"piege":"alternance"}
+{"id":"E215","msg":"J'ai trop peur de me tromper de vœux et de gâcher ma vie","ip":"stress_motivation"}
+{"id":"E216","msg":"je stresse de ouf pour parcoursup","ip":"stress_motivation","piege":"parcoursup"}
+{"id":"E217","msg":"Si je choisis une formation et que ça me plaît pas, c'est fichu ?","ip":"stress_motivation","ok":["reorientation"]}
+{"id":"E218","msg":"j'ai plus envie de rien en ce moment niveau cours, je sais pas si je vais continuer après le bac","ip":"stress_motivation","ok":["indecision"]}
+{"id":"E219","msg":"Je suis perdu, il y a trop de formations, je sais pas par où commencer","ip":"stress_motivation","ok":["indecision"]}
+{"id":"E220","msg":"Est-ce que c'est grave de ne pas savoir ce qu'on veut faire en seconde ?","p":{"classe":"Seconde","voie":"g"},"ip":"stress_motivation","ok":["indecision"]}
+{"id":"E221","msg":"J'ai l'impression d'être nulle comparée à ma classe, tout le monde a des projets et moi non","ip":"stress_motivation","ok":["indecision"]}
+{"id":"E222","msg":"Je dois choisir une spé ce soir et je panique, aide-moi","p":{"classe":"Seconde","voie":"g"},"ip":"stress_motivation","is":["choix_specialites"]}
+{"id":"E223","msg":"Je me fais harceler au lycée depuis la rentrée, j'arrive plus à y aller, et en plus il faut faire Parcoursup","ip":"detresse","is":["parcoursup_procedure"],"crit":["detresse"],"piege":"Parcoursup"}
+{"id":"E224","msg":"des fois j'ai envie de disparaître, tout le monde me met la pression pour mes vœux","ip":"detresse","crit":["detresse"],"piege":"vœux"}
+{"id":"E225","msg":"Je dors plus, je pleure tous les soirs à cause des notes et mes parents crient dès que j'ai moins de 15","ip":"detresse","crit":["detresse"],"piege":"notes"}
+{"id":"E226","msg":"j'en peux plus de la prépa, je pense à des trucs pas bien","p":{"classe":"Après le bac"},"ip":"detresse","crit":["detresse"],"piege":"prépa"}
+{"id":"E227","msg":"Mon père me frappe quand j'ai des mauvaises notes, je veux partir loin pour mes études","ip":"detresse","is":["lieu_etablissements"],"crit":["detresse"],"piege":"partir loin"}
+{"id":"E228","msg":"je me sens vraiment seul et nul, à quoi bon choisir une formation","ip":"detresse","crit":["detresse"],"piege":"formation"}
+{"id":"E229","msg":"On se moque de moi parce que je veux faire un CAP coiffure, j'ai honte d'aller en cours","ip":"detresse","is":["decouvrir_formation"],"crit":["detresse"],"piege":"CAP coiffure"}
+{"id":"E230","msg":"je suis épuisée, je travaille jusqu'à 2h du matin tous les jours depuis des semaines et je n'y arrive plus","ip":"detresse","crit":["detresse"]}
+{"id":"E231","msg":"Mes parents me mettent dehors si je ne fais pas médecine","ip":"detresse","is":["parents_entourage"],"crit":["detresse"],"piege":"médecine"}
+{"id":"E232","msg":"j'ai envie d'arrêter de vivre, pas juste les études","ip":"detresse","crit":["detresse"],"piege":"arrêter"}
+{"id":"E233","msg":"C'est gratuit StudLink ?","ip":"fonctionnement_studlink"}
+{"id":"E234","msg":"Comment tu choisis les formations que tu me proposes ?","ip":"fonctionnement_studlink"}
+{"id":"E235","msg":"Les écoles payent pour apparaître en premier ?","ip":"fonctionnement_studlink"}
+{"id":"E236","msg":"Qu'est-ce que vous faites de mes réponses ? Vous les revendez ?","ip":"fonctionnement_studlink"}
+{"id":"E237","msg":"t'es une vraie personne ou un robot ?","ip":"fonctionnement_studlink"}
+{"id":"E238","msg":"Est-ce que StudLink fait mes vœux à ma place sur Parcoursup ?","ip":"fonctionnement_studlink","piege":"Parcoursup"}
+{"id":"E239","msg":"Comment je supprime mon compte ?","ip":"fonctionnement_studlink"}
+{"id":"E240","msg":"Le pourcentage à côté des formations, c'est mes chances d'être pris ?","ip":"fonctionnement_studlink","crit":["chances"],"piege":"chances"}
+{"id":"E241","msg":"Je suis en seconde, j'ai le droit d'utiliser l'appli ?","p":{"classe":"Seconde","voie":"g"},"ip":"fonctionnement_studlink"}
+{"id":"E242","msg":"Je peux refaire le questionnaire ?","ip":"fonctionnement_studlink"}
+{"id":"E243","msg":"Tu peux m'aider pour mon exo de maths sur les suites ?","ip":"hors_perimetre","piege":"maths"}
+{"id":"E244","msg":"donne moi une recette de crêpes","ip":"hors_perimetre"}
+{"id":"E245","msg":"Tu peux écrire ma dissertation de philo sur la liberté ?","ip":"hors_perimetre","piege":"philo"}
+{"id":"E246","msg":"C'est qui le meilleur joueur de foot du monde ?","ip":"hors_perimetre","piege":"foot"}
+{"id":"E247","msg":"il va faire beau demain à Lyon ?","ip":"hors_perimetre","piege":"Lyon"}
+{"id":"E248","msg":"Tu peux me traduire ce texte en espagnol pour mon devoir ?","ip":"hors_perimetre","piege":"espagnol"}
+{"id":"E249","msg":"Comment je fais pour avoir mon permis plus vite ?","ip":"hors_perimetre"}
+{"id":"E250","msg":"Résume-moi le chapitre 3 de mon cours d'histoire sur la guerre froide","ip":"hors_perimetre","piege":"histoire"}
+{"id":"E251","msg":"bonjour","ip":"social"}
+{"id":"E252","msg":"merci beaucoup c'était clair","ip":"social"}
+{"id":"E253","msg":"Merci ! Et du coup, il y a des stages en BTS MCO ?","ip":"programme_cours","piege":"merci"}
+{"id":"E254","msg":"ok cool","ip":"social"}
+{"id":"E255","msg":"salut ça va ? je voulais savoir c'est quoi une licence LAS","ip":"decouvrir_formation","piege":"salut"}
+{"id":"E256","msg":"bonne soirée","ip":"social"}
+{"id":"E257","msg":"Il paraît que le BTS c'est pour ceux qui sont pas bons, c'est vrai ? Je veux faire un BTS SIO mais j'ai peur qu'on me juge","ip":"stress_motivation","is":["decouvrir_formation"],"piege":"pas bons"}
+{"id":"E258","msg":"Je suis en terminale STL et j'aime la bio, je veux pas faire 5 ans, je cherche une formation courte où je manipule en labo","p":{"classe":"Terminale","voie":"t"},"ip":"indecision","is":["contrainte_rejet"],"piege":"5 ans"}
+{"id":"E259","msg":"C'est combien de temps un BTS, et je peux le faire en alternance à Lyon ?","ip":"duree_niveau","is":["alternance","lieu_etablissements"],"note":"trois questions"}
+{"id":"E260","msg":"Est-ce que le BUT MMI est sélectif et est-ce qu'il y a beaucoup de code dedans ?","ip":"admission_prerequis","is":["programme_cours"],"crit":["chances"],"note":"deux questions"}
+{"id":"E261","msg":"Ça coûte combien une école de commerce et est-ce qu'on peut la faire en alternance pour ne pas payer ?","ip":"cout_financement","is":["alternance"],"note":"deux questions"}
+{"id":"E262","msg":"Pour être prof d'histoire, il faut faire quoi, et ça dure combien de temps ?","ip":"metier_vers_formation","is":["duree_niveau"],"note":"deux questions"}
+{"id":"E263","msg":"Je suis en première, j'ai SES, HGGSP et anglais. Je pense arrêter l'anglais. Est-ce que je pourrai quand même faire Sciences Po ? Et c'est où les IEP ?","p":{"classe":"Première","voie":"g"},"ip":"choix_specialites","is":["admission_prerequis","lieu_etablissements"],"note":"long, plusieurs questions"}
+{"id":"E264","msg":"Alors voilà, je suis en terminale à Lille, j'ai toujours voulu faire du commerce parce que mon oncle a une boutique, mais en vrai ces derniers mois je me suis mise à faire des vidéos sur TikTok et j'adore le montage. Mes parents disent que c'est pas un métier. Ma vraie question c'est : est-ce qu'il existe des formations pour apprendre le montage vidéo ?","p":{"classe":"Terminale","voie":"g"},"ip":"metier_vers_formation","ok":["decouvrir_formation","indecision"],"piege":"commerce, parents","note":"récit long, question à la fin"}
+{"id":"E265","msg":"Bon, j'ai fait une L1 de droit l'an dernier, je l'ai validée de justesse, mais franchement je m'ennuie, je passe mes journées à réparer des vélos pour mes potes et j'adore ça, et je me dis que je pourrais peut-être faire quelque chose de plus manuel. Est-ce qu'on peut aller en BTS après une L1 ?","p":{"classe":"Après le bac"},"ip":"reorientation","piege":"droit, vélos","note":"récit long"}
+{"id":"E266","msg":"j'aime pas l'école, j'aime pas les maths, j'aime pas lire, j'aime juste la musique et cuisiner. y a un truc pour moi ou pas","ip":"indecision","is":["contrainte_rejet"],"piege":"école, maths"}
+{"id":"E267","msg":"Je veux faire un BUT GEA à Lyon en alternance, il y en a ?","ip":"lieu_etablissements","is":["alternance"]}
+{"id":"E268","msg":"Si je rate mon bac, je peux quand même aller en BTS ?","ip":"admission_prerequis","is":["stress_motivation"],"piege":"rate"}
+{"id":"E269","msg":"je veux pas aller en fac parce que mon cousin s'est perdu en L1, mais j'ai peur que les BTS soient trop scolaires, je fais quoi","ip":"comparer","is":["indecision"],"piege":"cousin"}
+{"id":"E270","msg":"Si je fais un BTS et que finalement je veux un master, c'est possible ?","ip":"debouches_metiers","ok":["reorientation"]}
+{"id":"E271","msg":"pourquoi tu me proposes pas d'écoles de commerce alors que j'ai dit que j'aimais le commerce ?","recos":["bts-ndrc","but-tc"],"ip":"fonctionnement_studlink","ok":["decouvrir_formation"]}
+{"id":"E272","msg":"Elle est dure à avoir ?","avant":["parle moi de la licence de psychologie"],"ip":"admission_prerequis","crit":["chances"],"note":"conversation"}
+{"id":"E273","msg":"et ça dure combien ?","avant":["c'est quoi le BTS diététique"],"ip":"duree_niveau","note":"conversation"}
+{"id":"E274","msg":"et à Toulouse ?","avant":["il y a un BUT MMI à Montpellier ?"],"ip":"lieu_etablissements","note":"conversation"}
+{"id":"E275","msg":"c'est payant ?","avant":["c'est quoi un bachelor en école de commerce"],"ip":"cout_financement","note":"conversation"}
+{"id":"E276","msg":"et les débouchés ?","avant":["présente moi le BUT chimie"],"ip":"debouches_metiers","note":"conversation"}
+{"id":"E277","msg":"la deuxième","avant":["quelles formations à Strasbourg en informatique ?"],"ip":"decouvrir_formation","ok":["lieu_etablissements"],"note":"conversation, ordinal"}
+{"id":"E278","msg":"elle se fait en alternance ?","avant":["parle moi du BTS comptabilité et gestion"],"ip":"alternance","note":"conversation"}
+{"id":"E279","msg":"et pour y entrer ?","avant":["c'est quoi la licence STAPS"],"ip":"admission_prerequis","note":"conversation"}
+{"id":"E280","msg":"Bonjour, notre fils est en terminale technologique et souhaite devenir pompier professionnel. Quelle voie lui conseillez-vous ?","p":{"classe":"Terminale","voie":"t"},"ip":"metier_vers_formation","note":"parent"}
+{"id":"E281","msg":"Je suis en term, j'ai 13 de moyenne et je veux faire kiné. Je vais en PASS, en LAS ou autre chose ? Et j'ai mes chances ?","p":{"classe":"Terminale","voie":"g"},"ip":"metier_vers_formation","is":["comparer","admission_prerequis"],"crit":["chances"],"note":"réforme santé 2027"}
+{"id":"E282","msg":"jveux faire un truc avec les enfants mais pas prof","ip":"indecision","is":["contrainte_rejet"],"ok":["metier_vers_formation"],"piege":"prof"}
+{"id":"E283","msg":"Il y a des maths en BTS compta ? Parce que je suis pas fort mais j'aime bien les chiffres en vrai","ip":"programme_cours","piege":"pas fort"}
+{"id":"E284","msg":"Je veux pas faire de prépa mais je veux une grande école de commerce, c'est possible ?","ip":"admission_prerequis","is":["contrainte_rejet"],"ok":["comparer","decouvrir_formation"],"piege":"prépa"}
+{"id":"E285","msg":"Mon frère dit que le BUT informatique c'est que pour les geeks qui codent depuis qu'ils ont 10 ans. Moi j'ai jamais codé, ça peut quand même marcher ?","ip":"admission_prerequis","is":["profil_scolaire"],"ok":["programme_cours"],"crit":["chances"],"piege":"frère"}
+{"id":"E286","msg":"Les écoles d'ingé post-bac recrutent comment ? Concours Puissance Alpha, c'est quoi ?","ip":"admission_prerequis"}
+{"id":"E287","msg":"j'aimerais faire une formation dans l'environnement mais concrète, pas de la recherche","ip":"indecision","is":["contrainte_rejet"],"piege":"recherche"}
+{"id":"E288","msg":"Une licence de psycho c'est 3 ans ou faut faire un master pour être psychologue ?","ip":"duree_niveau","is":["metier_vers_formation"]}
+{"id":"E289","msg":"je suis en 2nde pro cuisine et je regrette, je peux passer en générale ?","p":{"classe":"Seconde","voie":"p"},"ip":"reorientation","ok":["profil_scolaire"],"piege":"cuisine"}
+{"id":"E290","msg":"Quelle est la formation la plus facile pour avoir un bon salaire ?","ip":"debouches_metiers","ok":["indecision"]}
+{"id":"E291","msg":"Qu'est-ce que je peux faire avec un bac pro ASSP à part aide-soignante ?","p":{"classe":"Terminale","voie":"p"},"ip":"debouches_metiers","ok":["indecision","profil_scolaire"],"piege":"aide-soignante"}
+{"id":"E292","msg":"est-ce que ça vaut le coup de faire une prépa pour finalement aller à la fac","ip":"comparer","ok":["decouvrir_formation"]}
+{"id":"E293","msg":"Les BTS en lycée privé sous contrat c'est payant ?","ip":"cout_financement"}
+{"id":"E294","msg":"Mon copain part en Erasmus en Espagne et il veut que je le suive, mais moi je veux juste savoir s'il y a des licences de langues à Toulouse","ip":"lieu_etablissements","piege":"Erasmus, Espagne"}
+{"id":"E295","msg":"Pour être journaliste, mieux vaut une école de journalisme direct ou une licence d'abord ?","ip":"comparer","is":["metier_vers_formation"]}
+{"id":"E296","msg":"j'ai pas eu le bac, je peux faire quoi","p":{"classe":"Après le bac"},"ip":"reorientation","ok":["profil_scolaire","indecision"]}
+{"id":"E297","msg":"Je suis en terminale et je n'ai aucun vœu en tête, mais j'ai 3 semaines avant la fin des vœux, comment m'organiser ?","p":{"classe":"Terminale","voie":"g"},"ip":"parcoursup_procedure","is":["indecision","stress_motivation"]}
+{"id":"E298","msg":"est ce qu'il y a des formations courtes dans le numérique à Clermont","ip":"lieu_etablissements","is":["contrainte_rejet"]}
+{"id":"E299","msg":"J'aimerais faire une licence d'anglais mais mes parents disent que je vais finir prof. Il y a d'autres métiers après ?","ip":"debouches_metiers","is":["parents_entourage"],"piege":"parents, prof"}
+{"id":"E300","msg":"Un BTS ça se fait en lycée, du coup c'est comme continuer le lycée ?","ip":"decouvrir_formation","ok":["programme_cours"],"piege":"lycée"}
