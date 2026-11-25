@@ -103,6 +103,8 @@ async function ouvrir(fichier) {
     const ms = Number(process.hrtime.bigint() - t0) / 1e6;
     const txt = String(brut || ""), cut = txt.indexOf(MARK);
     const X = w.eval("D.coach.v46 || {}");
+    const cadre = w.eval("D.coach.cadre || null");
+    if (cadre) return { reponse: txt.trim(), couche: "cadre:" + cadre, aspect: null, branche: null, ms: Math.round(ms * 10) / 10, erreur };
     return {
       reponse: cut >= 0 ? txt.slice(0, cut).trim() : txt.trim(),
       couche: X.lastG || null,

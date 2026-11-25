@@ -69,6 +69,8 @@ const LIGNE = { 1635: "dossier_motivation", 1611: "comparer", 1637: "comparer", 
 
 function intentionDu(r, faq) {
   const g = r.couche || "";
+  if (g.startsWith("cadre:detresse")) return "detresse";
+  if (g === "cadre:hors_cadre") return "hors_perimetre";
   if (g.startsWith("fact:")) { const id = g.slice(5); if (faq[id]) return /^qp_lm/.test(id) ? "dossier_motivation" : (THEME[faq[id]] || "decouvrir_formation"); return FAIT(id); }
   if (g === "sans_reponse") return "aucune";
   if (g === "envie") return "indecision";
