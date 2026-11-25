@@ -1,6 +1,7 @@
 # Journal de l'entraînement du coach
 
 ## Décisions d'Eliot
+- 25/11/2026 14h25 : faits officiels sur StudLink donnés par Eliot (gratuit pour élèves et parents, seules les écoles partenaires paient ; pourcentage = compatibilité avec le profil ; suppression du compte depuis le profil). Rangés dans `coach/faits_studlink.md`. L'usage des données n'est pas encore précisé par Eliot : s'en tenir à la politique de confidentialité de l'application.
 - 25/11/2026 14h15 : **rien n'est mis en ligne ni modifié dans le moteur pour l'instant.** Toutes les modifications sont accumulées sur cette branche et Eliot les publiera en une fois. Les sessions suivent `coach/PROMPT.md` (v2).
 - 25/11/2026 : objectif d'**au moins 10 000 nouvelles questions par jour** (au moins 5 000 par session) avec des réponses construites, priorité aux sujets sensibles et aux questions spéciales (longues, avec beaucoup de caractéristiques). Vérification de la base et de la banque à chaque session.
 - Architecture validée par Eliot : non (en attente)
@@ -30,4 +31,4 @@ Commande : `cd coach/outils && npm install && node examen.js ../examen/examen_fi
 1. Première session au format v2 : créer `banque/`, `verification/`, `banque/index.json` et `banque/lexique.json`.
 2. Vérifier toute la base du coach (177 entrées V46_FAQ, 99 V46_FACTS) avec les contrôles automatiques, et 30 entrées à la source officielle (d'abord celles qui portent une date ou un montant).
 3. Générer au moins 5 000 questions (2 500 en clusters, 1 500 sensibles, 1 000 spéciales), en parallèle avec des sous-agents.
-4. Couverture prioritaire : détresse indirecte ou en SMS, fonctionnement de StudLink (en notant que les faits officiels manquent encore : gratuité, données, suppression du compte, sens du pourcentage → statut `a_verifier`), négations et attributions, questions multiples.
+4. Couverture prioritaire : détresse indirecte ou en SMS, fonctionnement de StudLink (réponses à partir de `coach/faits_studlink.md`), négations et attributions, questions multiples.
