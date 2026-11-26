@@ -27,8 +27,11 @@ Commande : `cd coach/outils && npm install && node examen.js ../examen/examen_fi
 - Examen : intention principale 45,7 → 51 % · pièges 29,4 → 41,3 % · questions multiples 36,5 → 41,9 % · échecs critiques 9 → 0 · détresse 0/10 → 10/10 · hors périmètre 2/8 → 8/8 · aucune régression, aucun faux positif.
 - Attention : les motifs du cadre ont été écrits en connaissant les formulations de l'examen. Le test séparé (`test_cadre.js`, 33 phrases nouvelles) est la mesure honnête du cadre.
 
-### 2026-11-25 16h34 · session programmée (v2) · **session en cours**
-- Démarrée automatiquement à 16h34 (heure de Puebla).
+### 2026-11-25 16h34 · session programmée (v2) · interrompue
+- Démarrée automatiquement à 16h34 (heure de Puebla). Aucun livrable poussé après le passage « en cours » (ni banque, ni vérification, ni rapport) : session interrompue avant son premier commit de travail.
+
+### 2026-11-26 04h34 · session programmée (v2) · **session en cours**
+- Démarrée automatiquement à 4h34 (heure de Puebla).
 
 ## Priorités de la prochaine session
 1. Première session au format v2 : créer `banque/`, `verification/`, `banque/index.json` et `banque/lexique.json`.
