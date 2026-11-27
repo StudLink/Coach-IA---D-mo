@@ -33,8 +33,11 @@ Commande : `cd coach/outils && npm install && node examen.js ../examen/examen_fi
 ### 2026-11-26 04h34 · session programmée (v2) · interrompue
 - Démarrée automatiquement à 4h34 (heure de Puebla). Aucun livrable poussé après le passage « en cours » : session interrompue avant son premier commit de travail.
 
-### 2026-11-26 16h34 · session programmée (v2) · **session en cours**
-- Démarrée automatiquement à 16h34 (heure de Puebla). Consigne : commit et push après chaque étape.
+### 2026-11-26 16h34 · session programmée (v2) · interrompue
+- Démarrée automatiquement à 16h34 (heure de Puebla). Livrables poussés avant l'interruption : outils de contrôle (`controles.py`, `controle_base.py`, `controle_banque.py`, `extraire_base.js`) et lot A de la banque (180 entrées, 498 questions, dans `banque/2026-11-26_16h34/parts/`). Ni vérification, ni rapport, ni `index.json`.
+
+### 2026-11-27 04h34 · session programmée (v2) · **session en cours**
+- Démarrée automatiquement à 4h34 (heure de Puebla). Consigne : commit et push après chaque étape. Le lot A de la session précédente est vérifié dans cette session.
 
 ## Priorités de la prochaine session
 1. Première session au format v2 : créer `banque/`, `verification/`, `banque/index.json` et `banque/lexique.json`.
